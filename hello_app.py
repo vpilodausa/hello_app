@@ -34,12 +34,23 @@ if st.text_input('enter the code') == pass_code:
     body = st.text_area("Start .... ", height=200, max_chars=None)
     
     if st.button("save entry "):
-        data_dict[title] = body
+        try:
+            data_x = body + '\n' + data_dict[title]
+            data_dict.pop(title,None)
+            data_dict[title] = data_x
+            
+        except:
+            data_dict[title] = body
         write_to_file(file_name, data_dict)
         
     
     if st.button("read previous entries "):
-        st.write(data_dict)
+        st.write(dict(reversed(list(data_dict.items())))) # show the dictionary in reverse order
+    
+    
+    
+    
+    
     
     
     
