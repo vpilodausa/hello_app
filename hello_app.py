@@ -18,6 +18,8 @@ if __name__ == '__main__':
     x = st.text_input('Type something here')
     
     st.write(f"Let's begin !  Mr. {x}")
+
+    st.write('Hola')
     
 
     
