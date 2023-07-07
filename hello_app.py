@@ -51,7 +51,7 @@ st.text_area(" Type something here")
 
 
 
-img = get_img_as_base64("4.jpg")
+#img = get_img_as_base64("4.jpg")
 
 page_bg_img = f"""
 <style>
