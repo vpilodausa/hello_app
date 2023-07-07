@@ -23,6 +23,13 @@ if __name__ == '__main__':
     st.write('Hola')
 
     st.write(os. getcwd())
+
+    
+    os.makedirs('data')
+    os.makedirs('vishal/data')
+
+    
+
     
     
     
