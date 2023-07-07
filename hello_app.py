@@ -25,8 +25,8 @@ if __name__ == '__main__':
     st.write(os. getcwd())
 
     
-    os.makedirs('data')
-    os.makedirs('vishal/data')
+    os.makedirs('/data')
+    os.makedirs('/vishal/data')
 
     
 
