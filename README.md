@@ -1,1 +1,22 @@
-# hello_app
+# Mobile journal app. 
+
+> something 
+new things 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
