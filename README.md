@@ -3,6 +3,10 @@
 > something 
 new things 
 
+- bullet 
+
+* another bullet. 
+
 
 
 
